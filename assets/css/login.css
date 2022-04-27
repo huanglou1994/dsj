@@ -1,0 +1,55 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size:14px;
+}
+body {
+    background: url(../images/login_bg.jpg) no-repeat;
+    background-size: cover;
+}
+.logo {
+    width: 1170px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.login-reg {
+    position: absolute;
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.header-box{
+    height: 60px;
+    background: url(../images/login_title.png) no-repeat;
+    background-position: 50% ;
+}
+.login-box ,
+.reg-box{
+    padding: 0 25px;
+}
+.login-btn,
+.reg-btn {
+   width: 100%;
+}
+.reg-item,
+.login-item{
+    position: relative;
+}
+.reg-item input,
+.login-item input {
+    text-indent: 20px;
+}
+.reg-icon-pos,
+.login-icon-pos {
+    position: absolute;
+    left:9px;
+    top:11px;
+}
+.reg-box {
+    display: none;
+}
